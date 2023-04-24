@@ -11,13 +11,13 @@ function SpotList(){
           longitude: -15.407362494877344,
           title: "Burbujita.",
           description: "The best shop of the world (Jinamar).",
-          img:"img2.png"
+          img:"img2.jpg"
         }, {
           latitude: 28.02955180511268,
           longitude: -15.418327152720622,
           title: "Burbujita.",
           description: "The best shop of the world (Jinamar2).",
-          img:"img3.png"
+          img:"img3.jpg"
         }
       ]    
     return spots;

@@ -5,7 +5,7 @@ import SpotList from "../../Services/listSpots.service";
 
 
 function Spots() {
-    const currentSpotsList = SpotList;
+    const currentSpotsList = SpotList();
     return (
         <>
             <div>
@@ -13,7 +13,7 @@ function Spots() {
             </div>
             <div>
                 <h1>Spots</h1>
-                <Locations Spots={currentSpotsList} titulo="Tremendo mapazo" />
+                <Locations spots={currentSpotsList} />
             </div>
             <div>
                 <Footer />

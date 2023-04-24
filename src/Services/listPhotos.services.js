@@ -1,19 +1,19 @@
 const photos = [
     {
-        id:1,
+        id: 1,
         img: "img1.png"
-    }, 
-    {
-        id:2,
-        img: "img2.png"
-    }, 
-    {
-        id:3,
-        img: "img3.png"
     },
     {
-        id:4,
-        img: "img4.png"
+        id: 2,
+        img: "img2.jpg"
+    },
+    {
+        id: 3,
+        img: "img3.jpg"
+    },
+    {
+        id: 4,
+        img: "img4.jpg"
     }
 ];
 
