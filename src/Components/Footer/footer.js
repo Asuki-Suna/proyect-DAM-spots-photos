@@ -17,7 +17,7 @@ function Footer() {
         </div>
         <div className="github">
           <FontAwesomeIcon icon={faGithub} />
-          <li><a href="https://github.com/Asuki-Suna">github</a></li>
+          <li><a href="https://github.com/Asuki-Suna/proyect-DAM-spots-photos/tree/main">github</a></li>
         </div>
       </div>
     </div>
