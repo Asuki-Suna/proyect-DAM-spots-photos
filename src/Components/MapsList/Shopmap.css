@@ -1,5 +1,10 @@
 .leaflet-container{
     margin: 0 auto;
-    width: 75vh;
+    width: 95vw;
     height: 50vh;
+    justify-content: center;
+}
+
+.leaflet-popup-content img{
+    width: 100%;
 }

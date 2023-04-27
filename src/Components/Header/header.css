@@ -3,11 +3,13 @@
     justify-content: center;
     text-align: center;
     background-color: blueviolet;
-}
-.Title{
-    border: 1px solid black;
+    gap: 1px;
     margin: 0;
     padding: 0;
+}
+.title h1{
+    margin: 0;
+    padding: 10px;
 }
 
 .buttons{
@@ -21,14 +23,16 @@
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
+    
     margin: 0;
     padding: 0;
     width: 90vw;
 }
 .buttons li{ 
-    border: 1px solid aquamarine;
+
 }
 
 .buttons a{
     color: white;
+    text-decoration: none;
 }

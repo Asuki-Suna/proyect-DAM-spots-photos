@@ -1,7 +1,25 @@
-/* div{
-    background-color: green;
-    justify-content: end;
-    text-align: left;
-    border: 1px solid black;
+.footerAll{
 
-} */
+}
+
+.footerAll p{
+    
+}
+
+.email{
+   margin: 0;
+   padding: 0; 
+}
+.email p{
+    margin: 0;
+    padding: 0;
+}
+
+.github{
+    margin-bottom: 5%;
+    padding: 0; 
+}
+.github li{
+    margin: 0;
+    padding: 0; 
+}

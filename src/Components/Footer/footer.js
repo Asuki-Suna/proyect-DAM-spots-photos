@@ -8,7 +8,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 function Footer() {
 
   return (
-    <div>
+    <div className="footerAll">
       <p>© 2023 Canary Photos Todos los derechos reservados Política de Privacidad y Cookies | Condiciones de Venta</p>
       <div>
         <div className="email">

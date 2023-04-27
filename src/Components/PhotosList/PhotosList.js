@@ -13,10 +13,9 @@ function PhotosList() {
     return (
       photos.map(p => {
         return (
-          <p key={p.id}>
-            
+          <div className="photosHome">
             <img src={`/assets/IMG/${p.img}`} alt="foto"/>
-          </p>
+          </div>
         )
       }))
   }
