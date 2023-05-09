@@ -1,9 +1,9 @@
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
-import "./Shopmap.css"
+import "./Spotmap.css"
 
 
 function Locations(props) {
-    const shops = props.spots;
+    const spots = props.spots;
 
     return (
         <>
@@ -12,7 +12,7 @@ function Locations(props) {
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
-                {shops.map((s) => {
+                {spots.map((s) => {
                     return (
                         <Marker position={[s.latitude, s.longitude]}>
                             <Popup>
