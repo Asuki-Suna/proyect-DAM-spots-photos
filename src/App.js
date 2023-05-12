@@ -3,6 +3,7 @@ import './App.css';
 import Home from "./PAGES/Home/Home";
 import Spots from "./PAGES/Spots/spots";
 import Credits from "./PAGES/Credits/credits";
+import SpotList from "./PAGES/AddSpot/AddSpot";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<Home />}/>
         <Route path="/Home" element={<Home />}/>
         <Route path="/Spots" element={<Spots />}/>
+        <Route path="/SpotList" element={<SpotList />}/>
         <Route path="/Credits" element={<Credits />}/>
       </Routes>
     </BrowserRouter>

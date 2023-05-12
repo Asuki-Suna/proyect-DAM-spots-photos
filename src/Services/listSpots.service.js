@@ -7,22 +7,25 @@ const getAllSpots = () => {
   return get(dbRef);
 };
 
-// const addSpot = (brand, model) => {
-//   return push(dbRef, {
-//     brand: brand,
-//     model: model
-//   });
-// };
+const addSpot = (description, img, latitude, longitude, title) => {
+  return push(dbRef, {
+    description: description,
+    img: img,
+    latitude: latitude,
+    longitude: longitude,
+    title: title
+  });
+};
 
-// const removeSpot = (key) => {
-//   const dbRefBike = ref(db, `/bikes/${key}`);
-//   return remove(dbRefBike);
-// };
+const removeSpot = (key) => {
+  const dbRefSpots = ref(db, `/spots/${key}`);
+  return remove(dbRefSpots);
+};
 
 export default {
-  getAllSpots
-  // addBike,
-  // removeBike,
+  getAllSpots,
+  addSpot,
+  removeSpot
 };
 
 
