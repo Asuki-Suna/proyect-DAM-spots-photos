@@ -7,10 +7,10 @@ const getAllSpots = () => {
   return get(dbRef);
 };
 
-const addSpot = (description, img, latitude, longitude, title) => {
+const addSpot = (description, latitude, longitude, title) => {
   return push(dbRef, {
     description: description,
-    img: img,
+    // img: img,
     latitude: latitude,
     longitude: longitude,
     title: title
