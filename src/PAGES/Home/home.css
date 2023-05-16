@@ -96,20 +96,18 @@
 @media screen and (min-width: 1200px) {
     .photosHome{
         width: 100vw;
-        height: 60vh;
+        height: 30vh;
         object-fit: cover;
         margin-bottom: 5px;
         border-radius: 10%;
         margin: 3px;
         
-        
-        
     }
     .photosHome img{
         width: 100%;
-        height: 60%;
+        height: 100%;
         border-radius: 10%;
-        padding-top: 70px;
+        border: 1px solid red;
     }
 
     .ID>div{
@@ -119,5 +117,32 @@
         
         justify-content: center;
         align-items: center;
+    }
+
+    @media screen and (min-width: 1600px) {
+        .photosHome{
+            width: 100vw;
+            height: 40vh;
+            object-fit: cover;
+            margin-bottom: 5px;
+            border-radius: 10%;
+            margin: 3px;
+            
+        }
+        .photosHome img{
+            width: 100%;
+            height: 100%;
+            border-radius: 10%;
+            border: 1px solid red;
+        }
+    
+        .ID>div{
+            display: flex;
+            width: 90vw;
+            flex-wrap: nowrap;
+            
+            justify-content: center;
+            align-items: center;
+        }
     }
 }
