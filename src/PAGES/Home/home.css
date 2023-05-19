@@ -1,23 +1,25 @@
-.body{
+.body {
     margin: 0;
     padding: 0;
 }
 
-.bodyTitle p{
- margin: 0;
- font-size: larger;
- font-weight: bold;
- padding-top: 1%;
- padding-bottom: 1%;
+.bodyTitle p {
+    margin: 0;
+    font-size: larger;
+    font-weight: bold;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
-.bodyTitle{
+
+.bodyTitle {
     background-color: brown;
     height: 100%;
     display: flex;
     align-content: center;
     justify-content: center;
 }
-.textDescription{
+
+.textDescription {
     font-size: 85%;
     justify-content: center;
     text-align: center;
@@ -27,42 +29,42 @@
     height: 100%;
 }
 
-.ID{
+.ID {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+
 
 }
 
-.photosHome{
+.photosHome {
     width: 90vw;
     height: 40vh;
     object-fit: cover;
     margin-bottom: 5px;
     border-radius: 10%;
-    
+
 }
-.photosHome img{
+
+.photosHome img {
     width: 100%;
     height: 100%;
     border-radius: 10%;
 }
 
-@media screen and (min-width: 320px) {
-
-}
+@media screen and (min-width: 320px) {}
 
 @media screen and (min-width: 420px) {
-    .photosHome{
+    .photosHome {
         width: 80vw;
         height: 40vh;
         object-fit: cover;
         margin-bottom: 5px;
         border-radius: 10%;
-        
+
     }
-    .photosHome img{
+
+    .photosHome img {
         width: 100%;
         height: 100%;
         border-radius: 10%;
@@ -70,22 +72,23 @@
 }
 
 @media screen and (min-width: 600px) {
-    .photosHome{
+    .photosHome {
         width: 40vw;
         height: 40vh;
         object-fit: cover;
         margin-bottom: 5px;
         border-radius: 10%;
         margin: 3px;
-        
+
     }
-    .photosHome img{
+
+    .photosHome img {
         width: 100%;
         height: 100%;
         border-radius: 10%;
     }
 
-    .ID>div{
+    .ID>div {
         display: flex;
         width: 90vw;
         flex-wrap: wrap;
@@ -94,53 +97,53 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .photosHome{
+    .photosHome {
         width: 100vw;
         height: 30vh;
         object-fit: cover;
         margin-bottom: 5px;
         border-radius: 10%;
         margin: 3px;
-        
+
     }
-    .photosHome img{
+
+    .photosHome img {
         width: 100%;
         height: 100%;
         border-radius: 10%;
-        border: 1px solid red;
     }
 
-    .ID>div{
+    .ID>div {
         display: flex;
         width: 90vw;
         flex-wrap: nowrap;
-        
+
         justify-content: center;
         align-items: center;
     }
 
     @media screen and (min-width: 1600px) {
-        .photosHome{
+        .photosHome {
             width: 100vw;
             height: 40vh;
             object-fit: cover;
             margin-bottom: 5px;
             border-radius: 10%;
             margin: 3px;
-            
+
         }
-        .photosHome img{
+
+        .photosHome img {
             width: 100%;
             height: 100%;
             border-radius: 10%;
-            border: 1px solid red;
         }
-    
-        .ID>div{
+
+        .ID>div {
             display: flex;
             width: 90vw;
             flex-wrap: nowrap;
-            
+
             justify-content: center;
             align-items: center;
         }
