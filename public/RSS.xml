@@ -1,33 +1,49 @@
-<rss>
-  <spots>
-    <spot0>
-      <description>Iglesia del pueblo de Tejeda</description>
-      <img>IglesiaTejeda.jpg</img>
-      <latitude>27.995474</latitude>
-      <longitude>-15.615271</longitude>
-      <title>Iglesia del pueblo de tejeda</title>
-    </spot0>
-    <spot1>
-      <description>Atardecer desde la bahía de ojos de garza</description>
-      <img>OjosGarza.jpg</img>
-      <latitude>27.95374</latitude>
-      <longitude>-15.377708</longitude>
-      <title>Ojos de garza</title>
-    </spot1>
-    <spot2>
-      <description>Amanecer en el mirador de la paloma en dirección a las palmas</description>
-      <img>MiradorPaloma.jpg</img>
-      <latitude>28.007054</latitude>
-      <longitude>-15.598905</longitude>
-      <title>Mirador de la paloma</title>
-    </spot2>
-    <spot3>
-      <description>Foto sacada desde el camino que lleva a la ventana del nublo</description>
-      <img>VentanaNublo.jpg</img>
-      <latitude>27.960151</latitude>
-      <longitude>-15.587027</longitude>
-      <title>Ventana del nublo</title>
-    </spot3>
-  </spots>
-
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>
+      <![CDATA[ Canary Photos ]]>
+    </title>
+    <description>
+      <![CDATA[ un proyecto donde se podra subir localizaciones para fotografias ]]>
+    </description>
+    <link>https://canary-photos.web.app/news</link>
+    <generator>RSS for Node</generator>
+    <lastBuildDate>Fri, 19 Jun 2023 15:05:51 GMT</lastBuildDate>
+    <atom:link href="https://canary-photos.web.app/RSS.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Nueva página del Home</title>
+      <link>https://canary-photos.web.app/NWnewHome</link>
+      <category>
+        <![CDATA[ Noticias Página]]>
+      </category>
+      <pubDate>Wed, 03 May 2023 16:10:53 GMT</pubDate>
+      <content:encoded>
+        <![CDATA[ <p>Hemos actualizado la página de Home para que sea más sencilla e intuitiva</p>]]>
+      </content:encoded>
+    </item>
+        <item>
+      <title>Nueva página del Home</title>
+      <link>https://canary-photos.web.app/NWnewFunction</link>
+      <category>
+        <![CDATA[ Noticias Página]]>
+      </category>
+      <pubDate>Sat, 20 May 2023 16:10:53 GMT</pubDate>
+      <content:encoded>
+        <![CDATA[ <p>Prueba la nueva funcion de AddSpot para que insertes tus propias localizacion.</p>]]>
+      </content:encoded>
+    </item>
+        <item>
+      <title>Nueva página del Home</title>
+      <link>https://canary-photos.web.app/NWfindPartner</link>
+      <category>
+        <![CDATA[ Noticias Página]]>
+      </category>
+      <pubDate>Mon, 15 May 2023 16:10:53 GMT</pubDate>
+      <content:encoded>
+        <![CDATA[ <p>Estamos buscando nuevos socios para que nos ayuden a buscar los mejores lugares para sacar las mejores fotos.</p>]]>
+      </content:encoded>
+    </item>
+  </channel>
 </rss>

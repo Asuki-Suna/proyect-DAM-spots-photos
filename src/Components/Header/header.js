@@ -11,6 +11,7 @@ function Header() {
                     <li><a href="/">Home</a></li>
                     <li><a href="/Spots">Spots</a></li>
                     <li><a href="/SpotList">SpotList</a></li>
+                    <li><a href="/News">News</a></li>
                     <li><a href="/RSS.xml">RSS</a></li>
                     <li><a href="/Credits">Credits</a></li>
                 </ul>
